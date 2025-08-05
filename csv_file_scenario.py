@@ -9,7 +9,6 @@ def initialize_csv(filename):
             for row in r:
                 print(row)
 
-    except FileExistsError as e:
-        print('File already exists.', e)
-        
+
+
     
